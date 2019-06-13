@@ -1,0 +1,111 @@
+body{background: url("fon.jpg" );
+	  
+	}
+main{margin: 0 auto;
+    background-color: #FA8072;
+    width: 1200px;
+    height: 3200px;
+
+}
+nav{
+    display: flex;
+    height: 100px;
+    background-color: #402720;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+ 
+.nav_menu{
+    width: 600px;
+    float: right;
+    height: 100px;
+    text-align:  center;
+    margin: 0;
+    padding: 0;
+}
+
+.img_nav{
+    height: 100px;
+    width: 500px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_nav img{
+    height: 100px;
+}
+
+.nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_menu li{
+    font-family: Times New York;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+li:hover{
+    background: #ff9933;
+    cursor: pointer;
+    color: #402720;
+}
+.misto{
+    font-family: Times New York;
+    color: white;
+    font-size: 18px;
+    height: 800px;
+}
+.misto img{
+    width: 1200px;
+    
+}
+.foto_misto{
+   background-color: #FA8072;
+   height: 500px;
+   width: 600px; 
+}
+.foto_misto img{
+   width: 550px;  
+}
+.text_misto{
+    background-color: #FA8072;
+   height: 500px;
+    width: 600px;
+    height: 900px;
+    float: right;
+    font-size: 20px;
+}
+        
+.misto2{
+    font-family: Times New York;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+
+	}
+
+    .misto2 img{
+        width: 600px;
+
+    }
+    .text_misto2{
+        background-color: #FA8072;
+   height: 600px;
+   width: 600px; 
+        width: 600px;
+    height: 400px;
+    float: left;
+    font-size: 20px;
+
+    }
